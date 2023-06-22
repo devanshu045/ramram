@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  Button {
+    background-color: #4CAF50; /* Button background color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Button shadow */
+    transition: box-shadow 0.3s; /* Transition effect for hover */
+  
+    /* Hover effect */
+    cursor: pointer;
+  }
+  
+  Button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Shadow when hovering */
+  }
+  Button a{
+    text-decoration: none;
+  }
+  
